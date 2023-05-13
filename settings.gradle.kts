@@ -1,0 +1,1 @@
+rootProject.name = "9-2-Ktor-y-Exposed-Entity-tabla"
