@@ -9,7 +9,9 @@ import io.ktor.server.routing.*
 import io.ktor.server.util.*
 
 /**
- * Routing para Entity
+ * Esta función configura las rutas utilizadas por la app, incluyendo la redirección de la
+ * ruta principal a la lista de items, el manejo de la creación, actualización y eliminación de items
+ * y la visualización de un item específico.
  */
 fun Application.configureRouting() {
     routing {// Función de enrutamiento que configura las rutas de la app

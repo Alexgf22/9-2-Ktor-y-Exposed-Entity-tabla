@@ -6,6 +6,10 @@ import io.ktor.server.response.*
 import io.ktor.server.application.*
 import io.ktor.server.routing.*
 
+/**
+ * Esta función configura la serialización para el servidor web, que en este caso usa
+ * el formato JSON.
+ */
 fun Application.configureSerialization() {
     install(ContentNegotiation) {
         json()
