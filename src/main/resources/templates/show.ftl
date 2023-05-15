@@ -3,19 +3,19 @@
 <@layout.header>
     <div>
         <h3>
-            ${entity.name}
+           Name: ${entity.name}
         </h3>
         <p>
-            ${entity.description}
+           Description: ${entity.description}
         </p>
         <p>
-            ${entity.value}
+           Value: ${entity.value}
         </p>
         <p>
-            ${entity.sectionId}
+           SectionId: ${entity.sectionId}
         </p>
         <p>
-            ${entity.order}
+            Order: ${entity.order}
         </p>
         <hr>
         <p>

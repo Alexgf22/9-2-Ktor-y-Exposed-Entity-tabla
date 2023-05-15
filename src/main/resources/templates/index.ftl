@@ -15,7 +15,16 @@
             <a href="/entities/${entity.id}">${entity.name}</a>
         </h3>
         <p>
-            ${entity.description}
+            Description: ${entity.description}
+        </p>
+        <p>
+            Value: ${entity.value}
+        </p>
+        <p>
+            SectionId: ${entity.sectionId}
+        </p>
+        <p>
+            Order: ${entity.order}
         </p>
     </div>
 </#list>

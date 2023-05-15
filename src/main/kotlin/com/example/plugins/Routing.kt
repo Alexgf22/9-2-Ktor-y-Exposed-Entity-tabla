@@ -44,21 +44,21 @@ fun Application.configureRouting() {
                 val name = formParameters.getOrFail("name")
                 val description = formParameters.getOrFail("description")
                 val sectionId = formParameters.getOrFail("sectionId")
-                val order = formParameters.getOrFail("order").toInt()
+                val order = formParameters.getOrFail<Int>("order").toInt()
                 val entity = dao.addNewEntity(value, name, description, sectionId, order)
                 call.respondRedirect("/entities/${entity?.id}")
             }
 
             // Para mostrar el contenido de un item específico, se usa el ID del item como parámetro de ruta
             get("{id}") {
-                val id = call.parameters.getOrFail<Int>("id")
+                val id = call.parameters.getOrFail<Int>("id").toInt()
                 call.respond(FreeMarkerContent("show.ftl", mapOf("entity" to dao.entity(id))))
             }
             /* Ruta para editar un item. ('call.parameters') se usa para obtener el identificador del item
              y encontrar este item en un almacén
              */
             get("{id}/edit") {
-                val id = call.parameters.getOrFail<Int>("id")
+                val id = call.parameters.getOrFail<Int>("id").toInt()
                 call.respond(FreeMarkerContent("edit.ftl", mapOf("entity" to dao.entity(id))))
             }
 
@@ -68,7 +68,7 @@ fun Application.configureRouting() {
             Dependiendo de la acción, el item se actualiza o elimina del almacenamiento.
              */
             post("{id}") {
-                val id = call.parameters.getOrFail<Int>("id")
+                val id = call.parameters.getOrFail<Int>("id").toInt()
                 val formParameters = call.receiveParameters()
                 when (formParameters.getOrFail("_action")) {
                     "update" -> {
@@ -76,7 +76,7 @@ fun Application.configureRouting() {
                         val name = formParameters.getOrFail("name")
                         val description = formParameters.getOrFail("description")
                         val sectionId = formParameters.getOrFail("sectionId")
-                        val order = formParameters.getOrFail("order").toInt()
+                        val order = formParameters.getOrFail<Int>("order").toInt()
                         dao.editEntity(id, value, name, description, sectionId, order)
                         call.respondRedirect("/entities/$id")
                     }
