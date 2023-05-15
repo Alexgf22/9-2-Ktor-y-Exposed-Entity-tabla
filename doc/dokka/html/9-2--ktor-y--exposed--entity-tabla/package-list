@@ -1,0 +1,68 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.example.dao////PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/index.html
+$dokka.location:com.example.dao//dao/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/dao.html
+$dokka.location:com.example.dao/DAOFacade///PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade/index.html
+$dokka.location:com.example.dao/DAOFacade/addNewEntity/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade/add-new-entity.html
+$dokka.location:com.example.dao/DAOFacade/allEntities/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade/all-entities.html
+$dokka.location:com.example.dao/DAOFacade/deleteEntity/#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade/delete-entity.html
+$dokka.location:com.example.dao/DAOFacade/editEntity/#kotlin.Int#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade/edit-entity.html
+$dokka.location:com.example.dao/DAOFacade/entity/#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade/entity.html
+$dokka.location:com.example.dao/DAOFacadeImpl///PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade-impl/index.html
+$dokka.location:com.example.dao/DAOFacadeImpl/DAOFacadeImpl/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade-impl/-d-a-o-facade-impl.html
+$dokka.location:com.example.dao/DAOFacadeImpl/addNewEntity/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade-impl/add-new-entity.html
+$dokka.location:com.example.dao/DAOFacadeImpl/allEntities/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade-impl/all-entities.html
+$dokka.location:com.example.dao/DAOFacadeImpl/deleteEntity/#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade-impl/delete-entity.html
+$dokka.location:com.example.dao/DAOFacadeImpl/editEntity/#kotlin.Int#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade-impl/edit-entity.html
+$dokka.location:com.example.dao/DAOFacadeImpl/entity/#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-d-a-o-facade-impl/entity.html
+$dokka.location:com.example.dao/DatabaseFactory///PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-database-factory/index.html
+$dokka.location:com.example.dao/DatabaseFactory/dbQuery/#kotlin.coroutines.SuspendFunction0[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-database-factory/db-query.html
+$dokka.location:com.example.dao/DatabaseFactory/init/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.dao/-database-factory/init.html
+$dokka.location:com.example.models////PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/index.html
+$dokka.location:com.example.models/Entities///PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entities/index.html
+$dokka.location:com.example.models/Entities/description/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entities/description.html
+$dokka.location:com.example.models/Entities/id/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entities/id.html
+$dokka.location:com.example.models/Entities/name/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entities/name.html
+$dokka.location:com.example.models/Entities/order/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entities/order.html
+$dokka.location:com.example.models/Entities/primaryKey/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entities/primary-key.html
+$dokka.location:com.example.models/Entities/sectionId/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entities/section-id.html
+$dokka.location:com.example.models/Entities/value/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entities/value.html
+$dokka.location:com.example.models/Entity///PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entity/index.html
+$dokka.location:com.example.models/Entity/Entity/#kotlin.Int#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entity/-entity.html
+$dokka.location:com.example.models/Entity/description/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entity/description.html
+$dokka.location:com.example.models/Entity/id/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entity/id.html
+$dokka.location:com.example.models/Entity/name/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entity/name.html
+$dokka.location:com.example.models/Entity/order/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entity/order.html
+$dokka.location:com.example.models/Entity/sectionId/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entity/section-id.html
+$dokka.location:com.example.models/Entity/value/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.models/-entity/value.html
+$dokka.location:com.example.plugins////PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/index.html
+$dokka.location:com.example.plugins//configureDatabases/io.ktor.server.application.Application#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/configure-databases.html
+$dokka.location:com.example.plugins//configureRouting/io.ktor.server.application.Application#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/configure-routing.html
+$dokka.location:com.example.plugins//configureSerialization/io.ktor.server.application.Application#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/configure-serialization.html
+$dokka.location:com.example.plugins//configureTemplating/io.ktor.server.application.Application#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/configure-templating.html
+$dokka.location:com.example.plugins/IndexData///PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-index-data/index.html
+$dokka.location:com.example.plugins/IndexData/IndexData/#kotlin.collections.List[kotlin.Int]/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-index-data/-index-data.html
+$dokka.location:com.example.plugins/IndexData/items/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-index-data/items.html
+$dokka.location:com.example.plugins/User///PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user/index.html
+$dokka.location:com.example.plugins/User/User/#kotlin.String#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user/-user.html
+$dokka.location:com.example.plugins/User/age/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user/age.html
+$dokka.location:com.example.plugins/User/name/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user/name.html
+$dokka.location:com.example.plugins/UserService.Users///PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/-users/index.html
+$dokka.location:com.example.plugins/UserService.Users/age/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/-users/age.html
+$dokka.location:com.example.plugins/UserService.Users/id/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/-users/id.html
+$dokka.location:com.example.plugins/UserService.Users/name/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/-users/name.html
+$dokka.location:com.example.plugins/UserService.Users/primaryKey/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/-users/primary-key.html
+$dokka.location:com.example.plugins/UserService///PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/index.html
+$dokka.location:com.example.plugins/UserService/UserService/#org.jetbrains.exposed.sql.Database/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/-user-service.html
+$dokka.location:com.example.plugins/UserService/create/#com.example.plugins.User/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/create.html
+$dokka.location:com.example.plugins/UserService/delete/#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/delete.html
+$dokka.location:com.example.plugins/UserService/read/#kotlin.Int/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/read.html
+$dokka.location:com.example.plugins/UserService/update/#kotlin.Int#com.example.plugins.User/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example.plugins/-user-service/update.html
+$dokka.location:com.example////PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example/index.html
+$dokka.location:com.example//main/#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example/main.html
+$dokka.location:com.example//module/io.ktor.server.application.Application#/PointingToDeclaration/9-2--ktor-y--exposed--entity-tabla/com.example/module.html
+com.example
+com.example.dao
+com.example.models
+com.example.plugins
+
